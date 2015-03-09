@@ -41,6 +41,7 @@ function getWinner(playerMove,computerMove)
  if (playerMove === computerMove)
    { 
         winner = "tie";
+        console.log("This is a tie");
    }
 else if
 (
@@ -50,10 +51,12 @@ else if
 )
    { 
         winner = "player";
+         console.log("Lucky you! You are the winner this time");
    }
  else  
     {
         winner = "computer"; 
+        console.log("No luck, my friend... The winner is " + winner);
     }
 return winner;
 }
