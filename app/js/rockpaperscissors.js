@@ -114,6 +114,6 @@ function playGame()
     
     console.log("Thanks for playing and come back tomorrow!");
 }
-
+//starting a game
 playGame();
 
